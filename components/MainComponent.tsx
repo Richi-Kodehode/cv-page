@@ -1,6 +1,7 @@
 import { workExperience } from "../config/workExperience";
 import { education } from "../config/education";
 import { courses } from "../config/courses";
+import { additionalInfo } from "../config/additionalInfo";
 
 export default function MainComponent() {
   return (
@@ -89,6 +90,30 @@ export default function MainComponent() {
             </div>
           ))}
         </div>
+      </div>
+      <div>
+        <h3 className="text-2xl font-bold">Data: </h3>
+      </div>
+      <div>
+        <p className="text-white">{additionalInfo.data.join(", ")}</p>
+      </div>
+      <div>
+        <h3 className="text-2xl font-bold">Språk: </h3>
+      </div>
+      <div>
+        <p className="text-white">{additionalInfo.languages.join(", ")}</p>
+      </div>
+      <div>
+        <h3 className="text-2xl font-bold">Interesser: </h3>
+      </div>
+      <div>
+        <p className="text-white">{additionalInfo.interests.join(", ")}</p>
+      </div>
+      <div>
+        <h3 className="text-2xl font-bold">Referanser: </h3>
+      </div>
+      <div>
+        <p className="text-white">{additionalInfo.references}</p>
       </div>
       <div></div>
     </section>
