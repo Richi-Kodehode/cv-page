@@ -14,6 +14,7 @@ export const additionalInfo: AdditionalInfo = {
     "Photoshop",
     "Illustrator",
     "Davinci Resolve",
+    "Luminar Neo",
     "Cursor",
     "VSCode",
     "JavaScript",
