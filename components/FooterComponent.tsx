@@ -11,13 +11,13 @@ export default function FooterComponent() {
       <div className="flex flex-col gap-2 order-1 md:order-2 text-center md:text-left">
         <h3 className="font-bold text-base md:text-lg w-50">Prosjekter: </h3>
         <Link
-          className="hover:font-bold hover:scale-105 transition-all duration-300 text-sm md:text-base"
+          className="hover:scale-105 transition-all  duration-300 text-sm md:text-base"
           href="https://github.com/Richi-Kodehode"
         >
           GitHub Repo
         </Link>
         <Link
-          className="hover:font-bold hover:scale-105 transition-all duration-300 text-sm md:text-base"
+          className="hover:scale-105 transition-all duration-300 text-sm md:text-base"
           href="https://www.182media.no"
         >
           182 Media AS
