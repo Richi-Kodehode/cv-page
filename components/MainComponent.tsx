@@ -5,7 +5,7 @@ import { additionalInfo } from "../config/additionalInfo";
 
 export default function MainComponent() {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 min-h-screen max-w-screen-lg mx-auto justify-start items-start p-4 md:p-10 gap-4 md:gap-15">
+    <section className="grid grid-cols-1 md:grid-cols-2 min-h-screen max-w-screen-lg mx-auto justify-start items-start p-4 md:p-10 gap-4 md:gap-15 border my-10 bg-slate-800/40 border-slate-600">
       <div>
         <h3 className="text-xl md:text-2xl font-bold">
           Personlig Informasjon:{" "}
