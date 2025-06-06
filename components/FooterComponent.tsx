@@ -4,7 +4,7 @@ export default function FooterComponent() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <section className="flex flex-col md:flex-row justify-around items-center md:items-center p-4 md:p-10 max-w-screen border-t border-slate-700 gap-6 md:gap-0">
+    <section className="flex flex-col md:flex-row justify-around items-center md:items-center p-4 md:p-10 max-w-screen border-t border-white/50 gap-6 md:gap-0">
       <h1 className="text-sm md:text-md order-3 md:order-1 text-center">
         {currentYear} © Alle rettigheter reservert
       </h1>
