@@ -20,7 +20,7 @@ export const workExperience: WorkExperience[] = [
     company: "182Media AS",
     location: "Sandefjord",
     position: "Daglig leder",
-    description: "Daglig drift, fotograf, videograf, grafisk design",
+    description: "Daglig drift, fotograf, video og webdesign",
   },
   {
     years: "2022 - 2023",
