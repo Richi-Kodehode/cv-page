@@ -29,5 +29,5 @@ export const additionalInfo: AdditionalInfo = {
 
   languages: ["Norsk (Morsmål)", "Engelsk", "Dansk", "Svensk"],
   interests: ["Foto/video", "Kampsport", "Kroppsbygging", "Kosthold"],
-  references: "Oppgis på forespørsel",
+  references: "På forespørsel",
 };
