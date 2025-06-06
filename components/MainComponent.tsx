@@ -12,7 +12,7 @@ export default function MainComponent() {
       <div>
         <p>
           <span className="font-bold">Navn: </span>
-          <span>Richi Bøge</span>
+          <span>Richard Bøge</span>
         </p>
         <p>
           <span className="font-bold">E-post: </span>
